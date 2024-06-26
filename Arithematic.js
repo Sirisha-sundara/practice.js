@@ -28,7 +28,7 @@ function performArithmetic(num1, num2, operation) {
   console.log(performArithmetic(10, 5, divideNumbers));     
 
   console.log(performArithmetic(10, 0, divideNumbers));     
-  console.log(performArithmetic(15, 3, addNumbers));        // Output: 18
-  console.log(performArithmetic(7, 2, multiplyNumbers));    // Output: 14
-  console.log(performArithmetic(9, 4, subtractNumbers));    // Output: 5
-  console.log(performArithmetic(20, 4, divideNumbers));     // Output: 5
+  console.log(performArithmetic(15, 3, addNumbers));       
+  console.log(performArithmetic(7, 2, multiplyNumbers));    
+  console.log(performArithmetic(9, 4, subtractNumbers));    
+  console.log(performArithmetic(20, 4, divideNumbers));     

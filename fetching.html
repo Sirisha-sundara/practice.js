@@ -1,0 +1,85 @@
+<!--fetching one-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "myDiv">Hello, World!</div>
+    <script>
+        const myDiv = document.getElementById("myDiv");
+        console.log(myDiv);
+    </script>
+</body>
+</html>
+
+<!--fetching two-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "myClass">Hello, Siri!</div>
+    <div class = "myClass">How are you?</div>
+    <script>
+        const myClass = document.getElementByClass("myClass")
+        console.log(myClass)
+    </script>
+</body>
+</html>
+
+
+<!--fetching three-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>First paragraph text</p>
+    <p>Second paragraph text</p>
+    <p>Third paragraph text</p>
+    <script>
+        const paragraphs = document.getElementsByTagName("p");
+        console.log(paragraphs);
+    </script>
+</body>
+</html>
+
+
+<!--fetching four-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "myDiv">Hello,World!</div>
+    <p class = "myClass">paragraph</p>
+    <script>
+        const divElement = document.querySelector("#myDiv");
+        console.log(divElement);
+
+        const paragraphElement = document.querySelector(".myClass");
+        console.log(pragraphElement);
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+

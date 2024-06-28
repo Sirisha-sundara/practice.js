@@ -1,0 +1,99 @@
+<!--Modifying one-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>text1</p>
+    <p>text2</p>
+    <p>text3</p>
+    <script>
+        const paragraphs = document.getElementsByTagName("p");
+        var element = paragraphs[0];
+        element.textContent = "NewText";
+    </script>
+</body>
+</html>
+
+
+<!--Modifying two-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "myDiv">Very Good</div>
+    <script>
+        const divElement = document.getElementById("myDiv");
+        divElement.innerHTML = "<b> New Text</b>";
+    </script>
+</body>
+</html>
+
+
+<!--Modifying three-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="myParagraph">Sirisha</p>
+    <script>
+        const para = document.getElementById("myParagraph");
+        para.style.color = "red";
+    </script>
+</body>
+</html>
+
+
+<!--Modifying four-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a id = "myLink" href="https://www.google.com/">go to search</a>
+    <script>
+        const mylink= document.getElementById("myLink");
+        mylink.href =  "https://www.facebook.com/";
+    </script>
+</body>
+</html>
+
+
+<!--Modifying five-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myClass {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>Hello!</div>
+    
+    <script>
+        const div = document.getElementById("myDiv");
+        div.classList.add("myClass");
+    </script>
+</body>
+</html>
